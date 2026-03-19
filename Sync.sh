@@ -3,7 +3,7 @@
 set -e  # exit on error
 
 echo "==> Installing base packages..."
-sudo pacman -S --needed git base-devel 7zip mpv bluez btop libreoffice cmus inkscape ufw
+sudo pacman -S --needed git base-devel 7zip mpv bluez btop libreoffice cmus xtrlock inkscape ufw
 
 echo "==> Building suckless tools..."
 
